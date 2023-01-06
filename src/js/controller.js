@@ -120,7 +120,7 @@ const init = function () {
   paginationView.addHandlerPagination(controlPagination);
   bookmarksView.addHandlerRender(controlBookmarks);
   addRecipeView.addHandlerUpload(controlAddRecipe);
-  newFeature();
+  newFeature(); //
 };
 
 init();
